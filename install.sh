@@ -2,7 +2,7 @@
 
 REPO_URL="https://raw.githubusercontent.com/hongkongkiwi/Zonomi-DNS-Updator/master"
 REPO_UPDATE_SCRIPT="$REPO_URL/update_zonomi.sh"
-REPO_LOGGER_LIB="$REPO_URL/master/libs/task-logger/task-logger.sh"
+REPO_LOGGER_LIB="https://raw.githubusercontent.com/posva/task-logger.sh/master/task-logger.sh"
 UPDATE_SCRIPT="$HOME/Zonomi-DNS-Updator/update_zonomi.sh"
 CRON_FREQUENCY="@hourly"
 CONFIG_FILE="$HOME/.zonomi.conf"
